@@ -34,3 +34,7 @@ class Model:
 
         for e in allEdges:
             self._grafo.add_edge(e.o1, e.o2, weight=e.peso)
+
+
+    def checkExistence(self, idOggetto):
+        return idOggetto in self._idMap
