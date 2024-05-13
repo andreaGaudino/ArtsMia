@@ -7,6 +7,7 @@ class Controller:
         self._view = view
         # the model, which implements the logic of the program and holds the data
         self._model = model
+        
 
     def handleAnalizzaOggetti(self, e):
         self._model.creaGrafo()

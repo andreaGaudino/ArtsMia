@@ -25,3 +25,4 @@ class ArtObject:
 
     def __str__(self):
         return f"{self.object_id} - {self.object_name}"
+
